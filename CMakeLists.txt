@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 4.2)
-project(ed1_algorithms_list04_cpp)
+project(ed1_list_list04_cpp)
 
 set(CMAKE_CXX_STANDARD 20)
 
