@@ -7,17 +7,20 @@
 
 using namespace std;
 
-class Solution {
-public:
-    // TODO: Reorganize array so that all even integers precede all odd integers
-    vector<int> sortArrayByParity(vector<int>& nums) {
-        // Implementation goes here
-        return {};
-    }
-};
+using ll = long long;
+
+#define FAST_IO ios_base::sync_with_stdio(false); cin.tie(NULL);
+
+// TODO: Reorganize vector so that all even integers precede all odd integers
+vector<ll> sort_array_by_parity(vector<ll>& nums) {
+    // Implementation goes here
+    return {};
+}
 
 int main() {
-    // TODO: Instantiate Solution and test with sample vectors
+    FAST_IO;
+
+    // TODO: Read input (N followed by N elements), call sort_array_by_parity, and print partitioned vector
 
     return 0;
 }

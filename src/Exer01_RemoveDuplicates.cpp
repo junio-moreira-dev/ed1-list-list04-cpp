@@ -7,17 +7,20 @@
 
 using namespace std;
 
-class Solution {
-public:
-    // TODO: Remove duplicates in-place from sorted array and return the number of unique elements (k)
-    int removeDuplicates(vector<int>& nums) {
-        // Implementation goes here
-        return 0;
-    }
-};
+using ll = long long;
+
+#define FAST_IO ios_base::sync_with_stdio(false); cin.tie(NULL);
+
+// TODO: Remove duplicates in-place from sorted vector and return the count of unique elements (k)
+ll remove_duplicates(vector<ll>& nums) {
+    // Implementation goes here
+    return 0;
+}
 
 int main() {
-    // TODO: Instantiate Solution and test with sample vectors
+    FAST_IO;
+
+    // TODO: Read input (N followed by N elements), call remove_duplicates, and print k and the unique elements
 
     return 0;
 }

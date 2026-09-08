@@ -7,16 +7,19 @@
 
 using namespace std;
 
-class Solution {
-public:
-    // TODO: Move all 0's to the end of the array while maintaining the relative order of the non-zero elements
-    void moveZeroes(vector<int>& nums) {
-        // Implementation goes here
-    }
-};
+using ll = long long;
+
+#define FAST_IO ios_base::sync_with_stdio(false); cin.tie(NULL);
+
+// TODO: Move all 0's to the end while maintaining relative order of non-zero elements
+void move_zeroes(vector<ll>& nums) {
+    // Implementation goes here
+}
 
 int main() {
-    // TODO: Instantiate Solution and test with sample vectors
+    FAST_IO;
+
+    // TODO: Read input (N followed by N elements), call move_zeroes, and print rearranged vector
 
     return 0;
 }
