@@ -13,14 +13,27 @@ using ll = long long;
 
 // TODO: Reorganize vector so that all even integers precede all odd integers
 vector<ll> sort_array_by_parity(vector<ll>& nums) {
-    // Implementation goes here
+    // Implementation goes here in marathon-solution
     return {};
 }
 
 int main() {
     FAST_IO;
 
-    // TODO: Read input (N followed by N elements), call sort_array_by_parity, and print partitioned vector
+    ll n;
+    while (cin >> n) {
+        vector<ll> nums(n);
+        for (ll i = 0; i < n; i++) {
+            cin >> nums[i];
+        }
+
+        vector<ll> ans = sort_array_by_parity(nums);
+
+        for (ll i = 0; i < (ll)ans.size(); i++) {
+            cout << ans[i] << (i + 1 < (ll)ans.size() ? " " : "");
+        }
+        cout << "\n";
+    }
 
     return 0;
 }

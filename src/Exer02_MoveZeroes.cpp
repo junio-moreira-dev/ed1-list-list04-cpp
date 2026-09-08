@@ -13,13 +13,26 @@ using ll = long long;
 
 // TODO: Move all 0's to the end while maintaining relative order of non-zero elements
 void move_zeroes(vector<ll>& nums) {
-    // Implementation goes here
+    // Implementation goes here in marathon-solution
 }
 
 int main() {
     FAST_IO;
 
-    // TODO: Read input (N followed by N elements), call move_zeroes, and print rearranged vector
+    ll n;
+    while (cin >> n) {
+        vector<ll> nums(n);
+        for (ll i = 0; i < n; i++) {
+            cin >> nums[i];
+        }
+
+        move_zeroes(nums);
+
+        for (ll i = 0; i < n; i++) {
+            cout << nums[i] << (i + 1 < n ? " " : "");
+        }
+        cout << "\n";
+    }
 
     return 0;
 }
